@@ -22,7 +22,8 @@ header h1 {
 }
 
 #cover {
-	max-width:	100%
+	max-width:	100%;
+}
 
 nav {
 	background-color: #efe5d0;
