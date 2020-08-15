@@ -1,0 +1,110 @@
+html {	
+	background-image:	url(../images/background.jpg);
+	background-attachment:	fixed;
+	overflow-y:				hidden;
+	overflow-x:				hidden;
+
+}
+
+body {
+	background:			rgba(255,255,255,0.65);
+    min-height: 		100vh;
+    margin: 0;
+}
+
+.container{   
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    font-size: 48px;
+    margin: 10px;
+    padding: 30px; 
+}
+
+main {
+    vertical-align: middle;
+    margin: 10px;
+    padding-top: 100px;
+     display: flex;
+    flex-direction: row;  
+    flex-grow: 2; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    font-size: 24px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;    
+}
+
+.item div {
+    border-radius: 10px;
+}
+
+ h2 {
+    margin: 0px;
+    color: #AC4C39;
+} 
+
+h2:hover {
+    color: #fb6244;
+}
+
+.params {
+    font-size: 25px;    
+    padding: 10px;
+    padding-top: 0;
+    border: 0;
+    color: #AC4C39;
+}
+
+button {
+    border-radius: 5px;
+    background: rgb(177, 226, 145);
+    padding: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(0, 247, 255)
+}
+
+.country {
+    margin-top: 10px;
+}
+
+.item .country img {
+    width: 100%;
+    border: #ce8475 solid 3px;
+}
+
+.item .country img:hover {
+    border: rgb(0, 247, 255) solid 5px;
+}
+
+.item img {    
+    margin: 0px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+    color: #AC4C39;       
+}
+
+a:link {
+    text-decoration: none;
+}
