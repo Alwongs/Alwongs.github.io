@@ -9,8 +9,26 @@ btn2 = document.querySelector('.b2');
 btn3 = document.querySelector('.b3');
 btn4 = document.querySelector('.b4');
 
-
 btn1.onclick = function () {
+    alert('does not work yet. But be sure it is always sunny in your mind..');
+}
+
+btn2.onclick = function () {
+    alert('does not work yet. But be sure it is always sunny in your mind..');
+}
+
+btn3.onclick = function () {
+    alert('does not work yet. But be sure it is always sunny in your mind..');
+}
+
+btn4.onclick = function () {
+    alert('does not work yet. But be sure it is always sunny in your mind..');
+}
+
+
+
+
+/*btn1.onclick = function () {
     let temp1 = document.querySelector('.temp1');
     fetch('http://api.openweathermap.org/data/2.5/weather?id=703883&appid=6d1b93ee8d9b20e76c67ccbb309549f3')
         .then(function (resp) { return resp.json() })
@@ -108,4 +126,4 @@ btn4.onclick = function () {
             // catch any errors
         });
 
-}
+}*/
