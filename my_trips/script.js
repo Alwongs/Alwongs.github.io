@@ -10,19 +10,19 @@ btn3 = document.querySelector('.b3');
 btn4 = document.querySelector('.b4');
 
 btn1.onclick = function () {
-    alert('does not work yet. But be sure it is always sunny in your mind..');
+    alert('Солнечно. Особенно в Алуште ))');
 }
 
 btn2.onclick = function () {
-    alert('does not work yet. But be sure it is always sunny in your mind..');
+    alert('Ya ya! Schönes Wetter..');
 }
 
 btn3.onclick = function () {
-    alert('does not work yet. But be sure it is always sunny in your mind..');
+    alert('Super! Beau temps..');
 }
 
 btn4.onclick = function () {
-    alert('does not work yet. But be sure it is always sunny in your mind..');
+    alert(' Tempo freddo.. fenicotteri felice..');
 }
 
 
