@@ -1,15 +1,12 @@
 html {	
 	background-image:	url(../images/background.jpg);
 	background-attachment:	fixed;
-	/* overflow-y:				hidden;
-    overflow-x:				hidden; */
-    
+    min-width: 400px;   
 
 }
 
 body {
-	background:			rgba(255,255,255,0.65);
-   /* border: black solid 5px;*/
+	background:	rgba(255,255,255,0.65);
     margin: 0;
 }
 
@@ -38,6 +35,15 @@ main {
     flex-grow: 2; 
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        padding-top: 0;
+    }
+    header {
+        padding-bottom: 0;
+    }
 }
 
 .item {
