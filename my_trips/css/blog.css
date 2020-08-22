@@ -8,6 +8,7 @@ body {
 	background:	rgba(255,255,255,0.65);
     margin: 0 auto;
     max-width: 80%;
+    font-family:		Verdana;
 }
 
 header {
@@ -23,43 +24,11 @@ header {
 
 }
 
-@media screen and (max-width: 1024px) {
-
-    body {
-       margin: 0;
-        max-width: 100%;
-    }
-
-    .container {
-        flex-direction: column;
-    }
-
-    h1 {
-        font-size: 100%;
-    }
-
-    nav {
-        background:	rgba(255,255,255,0.95);
-    }
-    ul {
-        margin: 0;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: inline;
-        font-size: 24px;
-
-    }
-
-    aside {
-        margin: 10px;
-    }
-
-    aside ul li {
-        font-size: 20px;
-    }
+img {
+    width: 70%;
 }
+
+
 
 
 
@@ -89,9 +58,7 @@ p {
      text-indent: 40px; 
 }
 
-img {
-    width: 70%;
-}
+
 
 aside {
     padding: 20px;
@@ -120,4 +87,52 @@ nav ul li a:link, nav ul li a:visited {
 
 li.selected {
     background:	rgba(255,255,255,0.95);
+}
+
+@media screen and (max-width: 1024px) {
+
+    body {
+       margin: 0;
+        max-width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 100%;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 100%; 
+    }
+
+    nav {
+        background:	rgba(255,255,255,0.95);
+        padding: 0 0 0 10px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 24px;
+
+    }
+
+    aside {
+        margin: 10px;
+    }
+
+    aside ul li {
+        font-size: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
 }
