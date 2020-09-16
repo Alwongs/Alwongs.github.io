@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-   
+    /*border: 3px solid black;*/
     width: 1200px; 
     height: 100vh;   
     margin: 20px auto;
@@ -23,7 +23,7 @@ html {
 .car-block {
     top: -300px;
     left: 30px;
-
+   /* border: 3px solid black;*/
     margin: 20px;
     position: relative;
     height: 260px;
@@ -130,7 +130,10 @@ html {
 }
 
 
-@media screen and (max-width: 1200px) {
+
+
+
+/* @media screen and (max-width: 1200px) {
     .container {
         width: 1000px;
     }
@@ -158,5 +161,5 @@ html {
     .container {
         width: 100%;
     }
-}
+} */
 
