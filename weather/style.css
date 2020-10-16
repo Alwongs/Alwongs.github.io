@@ -1,0 +1,145 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #cccccc;
+  height: 100vh; 
+}
+
+header {
+  text-align: center;
+} 
+
+main {
+  display: flex;
+  margin: 10px;
+  background: #d0e6db;
+  border-radius: 7px;
+ 
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+aside {
+  text-align: center;
+  padding: 10px;
+  background: #d0e6db;
+
+  flex-grow: 1;
+}
+
+section {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.weather-block {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 150%;
+  font-style: italic;
+}
+
+select {
+  font-size: 70%;
+  width: 40%;
+  border: solid rgb(156, 88, 10) 1px;
+  border-radius: 3px;
+  background: #fbfbed
+}
+
+.widget {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  background: #d0e6db;
+  border: solid rgb(156, 88, 10) 1px;
+  border-radius: 7px;
+  width: 600px;
+  height: 100%;
+  flex-grow: 2;
+  font-size: 80%
+}
+
+.region-block {
+  font-size: 200%;
+}
+
+.inf {
+  border: solid black 2px;
+  padding: 10px;
+}
+
+.pic {
+  width: 100px;
+  padding: 10px;
+}
+
+img {  
+  max-width: 100%;
+}
+
+ul {
+  margin: 40px 20px 0 0;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+  line-height: 400%;
+  text-align: right;
+  font-size: 20px;
+  border-bottom: 1px solid lightgrey;
+ }
+
+ h3 {
+   margin-bottom: 50px;
+   font-style: italic;
+ }
+
+ .temp-block {
+   display: flex;
+   border-bottom: 1px solid lightgrey;
+ }
+
+ .temp-forecast {
+   padding: 35px 0;
+   font-size: 24px;
+ }
+
+ .region-span {
+   color: darkred;
+   font-size: 120%;
+   font-weight: 400;
+ }
+
+ .temp {
+  color: darkred;
+  font-size: 200%;
+ }
+
+ .disclaimer-block {
+   border: solid black 2px;
+ }
+
+ .disclaimer {
+   margin-top: 0;
+ }
+
+ .wind-block {
+  border: solid black 2px;
+  padding: 10px;
+ }
