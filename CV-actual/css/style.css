@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.body-bg {
+    background: url(../images/bg-container.jpg) no-repeat;
+    background-size: cover;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    height: 100vh;
+}
+.left-column {
+    background-color: #ffffff;
+    min-height:30vh;
+}
+.right-column {
+    background-color: #5183a6;;
+    min-height:30vh;
+    color: rgba(255, 255, 255, 0.8);
+}
+.cv {
+    box-shadow: 20px 30px 22px rgba(56, 60, 66, 0.4);
+}
+.photo-block {
+    position: relative;
+    display: inline-block;
+}
+.photo-block span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 36px;
+    color: white;
+    background-color: rgba(38, 120, 196, 0.25);
+}
+
+
+@media (max-width: 767px) {
+    /* стили для sm-устройств */
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств */
+    .photo-block span {
+        font-size: 46px;
+    }   
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+    .photo-block span {
+        font-size: 24px;
+    }
+}
+@media (min-width: 1200px) {
+    /* стили для lg-устройств */
+
+}
